@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #ababab;
+}
+
+.form{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #5d5d5d;
+    padding: 5px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+}
+.name{
+    height: 35px;
+    background: rgb(48, 48, 48);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.input{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding: 0 25px;
+    display: flex;
+    width: 100%;
+    outline: none;
+    background: rgb(48, 48, 48);
+    color: rgb(240, 255, 250);
+}
+
+.btn{
+    background: rgb(48, 48, 48);
+    border: none;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color: rgb(240, 255, 250);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.messages{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(52, 52, 52);
+}
+
+.messages > li{
+    padding: 10px;
+}
+.messages > li > span {
+    font-weight: 500;
+}
+.messages > li:nth-child(odd){
+    background:   #a0a0a0;
+}
